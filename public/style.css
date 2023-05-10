@@ -1,0 +1,83 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.confirm-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-popup button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+
+.confirm-popup button:hover {
+  background-color: #0069d9;
+}
+
+.confirm-popup button:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px rgba(0, 123, 255, 0.5);
+}
+
+.confirm-popup button:disabled {
+  background-color: #bbbbbb;
+  cursor: not-allowed;
+}
+
+.confirm-popup button.delete-btn {
+  background-color: #dc3545;
+}
+
+.confirm-popup button.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.confirm-popup button.delete-btn:focus {
+  box-shadow: 0px 0px 0px 3px rgba(220, 53, 69, 0.5);
+}
+
+.search-bar {
+  width: 100%;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.help-btn {
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+  background-color: #5a9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#map {
+  background-color: #e5e3df !important;
+  height: 100%;
+}
